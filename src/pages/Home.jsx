@@ -3,7 +3,7 @@ import FilterSidebar from "../components/FilterSidebar";
 import ProductGrid from "../components/ProductGrid";
 import "../styles/home.css";
 
-function Home() {
+const Home = () => {
   const [showFilter, setShowFilter] = useState(false);
 
   const [products, setProducts] = useState([]);
