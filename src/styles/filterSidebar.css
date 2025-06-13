@@ -1,0 +1,63 @@
+.sidebar {
+  width: 20%;
+}
+
+.filter-checkbox {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.filter-section {
+  margin-bottom: 1rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-weight: 700;
+  color: #222;
+}
+
+.filter-options {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+  color: #444;
+}
+
+.sidebar hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 1rem 0;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    width: 35%;
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    min-width: unset;
+    margin-bottom: 16px;
+  }
+  .filter-section {
+    font-size: 13px;
+  }
+  .filter-title {
+    font-size: 1rem;
+    padding: 0.4rem 0;
+  }
+  .filter-options {
+    padding-left: 0.5rem;
+    font-size: 0.95rem;
+  }
+}
